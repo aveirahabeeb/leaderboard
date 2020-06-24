@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 
 app.get("/", function(req, res) {
-  res.status(200).json( { message :"Leaderboard api "});
+  res.status(200).json( { message :"Welcome to Aveira Leaderboard api "});
 });
 
  app.post('/leaderboard', upload.single('file'), function (req, res) {
